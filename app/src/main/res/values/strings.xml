@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android_AppReplicante</string>
+    <string name="titulo">GoodFood</string>
+    <string name="subtitulo">Instant Food Delivery</string>
+    <string name="remenber">Forgot?</string>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign">Sign in with Facebook</string>
+    <string name="correo">kanad.saha@innofied.com</string>
+    <string name="contra">.......</string>
+</resources>
