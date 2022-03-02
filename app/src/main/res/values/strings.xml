@@ -9,4 +9,9 @@
     <string name="sign">Sign in with Facebook</string>
     <string name="correo">kanad.saha@innofied.com</string>
     <string name="contra">.......</string>
+    <string name="confirma">Confirma?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="reserva">Reservar</string>
+    <string name="plato_name">Nombre de plato</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

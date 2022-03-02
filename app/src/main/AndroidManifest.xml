@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="es.ua.eps.android_appreplicante">
 
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_AppReplicante">
-        <!-- DEBEMOS DE INDICAR QUE LAS ACTIVITYS ESTÁN EN TRUE, CASO CONTRARIO NO SE MUESTRA-->
+        <!-- DEBEMOS DE INDICAR QUE LAS ACTIVITYS ESTÁN EN TRUE, CASO CONTRARIO NO SE MUESTRA -->
         <activity
             android:name=".PlatosActivity"
             android:exported="true" />
@@ -23,6 +25,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".Menu"
+            tools:ignore="Instantiatable"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.IZQUIERDA"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
