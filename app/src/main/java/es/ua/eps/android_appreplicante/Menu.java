@@ -48,7 +48,9 @@ public class Menu extends Fragment implements View.OnClickListener  {
 
     @Override
     public void onClick(View elige) {
-        switch (elige.getId()) {
+        // VERSIÓN SWITCH
+
+       /* switch (elige.getId()) {
             case R.id.prueba:
                 String aux = "Reserva Confirmada";
                 informacion.setText(edita.getText().toString());
@@ -59,8 +61,18 @@ public class Menu extends Fragment implements View.OnClickListener  {
                 Intent llamada = new Intent(Intent.ACTION_CALL);
                 startActivity(llamada);
                 break;
-        }
+        }*/
+// VERSIÓN IF
+        if(elige.getId() == R.id.prueba){
+            String aux = "Reserva Confirmada";
+            informacion.setText(edita.getText().toString());
+            confirmacion.setText(aux);
+        }else{
+            Uri llama = Uri.parse("tel : + 334785");
+            Intent llamada = new Intent(Intent.ACTION_CALL);
+            startActivity(llamada);
 
+        }
     }
 }
 
